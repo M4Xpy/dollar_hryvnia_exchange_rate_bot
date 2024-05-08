@@ -20,7 +20,7 @@ dp = Dispatcher()
 async def answer(message: types.Message) -> None:
     if message.text == "get_exchange_rate":
         save_daily_rates_to_xlsx()
-        await message.answer_document(document=types.InputFile("exchange_rate.xlsx"))
+        await message.reply_document(document=types.FSInputFile("exchange_rate.xlsx"))
     else:
         await message.reply("Sorry , this  command  is  unknown .")
 
