@@ -15,7 +15,7 @@ Python3 must be already installed
 
 ```shell
 git clone https://github.com/M4Xpy/dollar_hryvnia_exchange_rate_bot
-cd sky_air
+cd dollar_hryvnia_exchange_rate_bot
 python3 -m venv venv
 source venv/bin/activate
 pip install requirements.txt
