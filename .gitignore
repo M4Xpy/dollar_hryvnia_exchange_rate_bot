@@ -262,3 +262,5 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all
+/app/exchange_rate.xlsx
+/app/exchange_rates.db
