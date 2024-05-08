@@ -14,7 +14,7 @@ with exchange rate values for the current date
 Python3 must be already installed
 
 ```shell
-git clone https://github.com/M4Xpy/sky_air
+git clone https://github.com/M4Xpy/dollar_hryvnia_exchange_rate_bot
 cd sky_air
 python3 -m venv venv
 source venv/bin/activate
